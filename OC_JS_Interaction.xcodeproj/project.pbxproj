@@ -15,6 +15,7 @@
 		2BD7EF361CDD82280077655A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD7EF341CDD82280077655A /* LaunchScreen.storyboard */; };
 		2BD7EF411CDD82280077655A /* OC_JS_InteractionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7EF401CDD82280077655A /* OC_JS_InteractionTests.m */; };
 		2BD7EF4C1CDD82280077655A /* OC_JS_InteractionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7EF4B1CDD82280077655A /* OC_JS_InteractionUITests.m */; };
+		2BD7EF5A1CDD82770077655A /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD7EF591CDD82770077655A /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2BD7EF471CDD82280077655A /* OC_JS_InteractionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OC_JS_InteractionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD7EF4B1CDD82280077655A /* OC_JS_InteractionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_JS_InteractionUITests.m; sourceTree = "<group>"; };
 		2BD7EF4D1CDD82280077655A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD7EF591CDD82770077655A /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BD7EF5A1CDD82770077655A /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		2BD7EF1A1CDD82280077655A = {
 			isa = PBXGroup;
 			children = (
+				2BD7EF591CDD82770077655A /* JavaScriptCore.framework */,
 				2BD7EF251CDD82280077655A /* OC_JS_Interaction */,
 				2BD7EF3F1CDD82280077655A /* OC_JS_InteractionTests */,
 				2BD7EF4A1CDD82280077655A /* OC_JS_InteractionUITests */,
@@ -414,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OC_JS_Interaction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zskj.cn.OC-JS-Interaction";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OC_JS_Interaction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zskj.cn.OC-JS-Interaction";
 				PRODUCT_NAME = "$(TARGET_NAME)";
